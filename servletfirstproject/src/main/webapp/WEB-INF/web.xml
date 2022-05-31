@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>servletfirstproject</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>My First</servlet-name>
+		<servlet-class>com.ty.Person</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My First</servlet-name>
+		<url-pattern>/demo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>My Second</servlet-name>
+		<servlet-class>com.ty.Hotel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Second</servlet-name>
+		<url-pattern>/demo1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>My Third</servlet-name>
+		<servlet-class>com.ty.Bed</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Third</servlet-name>
+		<url-pattern>/demo2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>My Fourth</servlet-name>
+		<servlet-class>com.ty.Room</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Fourth</servlet-name>
+		<url-pattern>/demo3</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>My Fifth</servlet-name>
+		<servlet-class>com.ty.MyData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Fifth</servlet-name>
+		<url-pattern>/mydarling</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>My Sixth</servlet-name>
+		<servlet-class>com.ty.Details</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Sixth</servlet-name>
+		<url-pattern>/details</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>My Seventh</servlet-name>
+		<servlet-class>com.ty.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>My Seventh</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+</web-app>
